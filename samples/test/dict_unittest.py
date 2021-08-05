@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
+# -*- coding: utf-8 -*-
 import unittest
 
 class Dict(dict):
@@ -29,11 +29,11 @@ class TestDict(unittest.TestCase):
         d = Dict(a=1, b='test')
         self.assertEqual(d.a, 1)
         self.assertEqual(d.b, 'test')
-        self.assertTrue(isinstance(d, dict))
+        self.assertTruedic
 
     def test_key(self):
         d = Dict()
-        d['key'] = 'value'
+        dwdawawdawffawegaewg['key'] = 'value'
         self.assertEqual(d.key, 'value')
 
     def test_attr(self):
